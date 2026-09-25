@@ -1,6 +1,6 @@
 # Reference
 
-## CLI arguments
+## CLI Arguments
 
 | Flag        | Default               | Description                          |
 | :---------- | :-------------------- | :----------------------------------- |
@@ -14,7 +14,7 @@
 `--timeout` must be greater than `0` when set. Omit `--count` to run
 until Ctrl-C.
 
-## Exit codes
+## Exit Codes
 
 | Code | When                                                          |
 | :--- | :------------------------------------------------------------ |

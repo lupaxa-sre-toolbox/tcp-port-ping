@@ -3,7 +3,7 @@
 The CLI opens a TCP connection, times the handshake, closes it, and
 repeats. Short flags match the original script: `-s`, `-p`, and `-d`.
 
-## CLI flags
+## CLI Flags
 
 | Flag        | Default                    | Description                                      |
 | :---------- | :------------------------- | :----------------------------------------------- |

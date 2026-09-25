@@ -1,6 +1,6 @@
 # Examples
 
-## HTTP probe
+## HTTP Probe
 
 ```bash
 tcp-port-ping --server example.com --port 80
@@ -8,13 +8,13 @@ tcp-port-ping --server example.com --port 80
 
 1 second delay, 1 second timeout. Press Ctrl-C for the summary.
 
-## HTTPS on port 443
+## HTTPS on Port 443
 
 ```bash
 tcp-port-ping --server example.com --port 443
 ```
 
-## Finite SSH check
+## Finite SSH Check
 
 ```bash
 tcp-port-ping -s 192.0.2.10 -p 22 --count 5 --timeout 0.5
@@ -22,7 +22,7 @@ tcp-port-ping -s 192.0.2.10 -p 22 --count 5 --timeout 0.5
 
 Exits `0` if all five connects succeed, or `1` if any fail.
 
-## Fast local loop
+## Fast Local Loop
 
 ```bash
 tcp-port-ping -s 127.0.0.1 -p 8080 --delay 0 --count 10 --timeout 0.2

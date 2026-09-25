@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 name = "lupaxa-tcp-port-ping"
 dynamic = ["version"]
 description = "Repeatedly connect to a TCP host and port and report latency."
-readme = "README-PYPI.md"
+readme = "README.md"
 license = { file = "LICENCE" }
 requires-python = ">=3.13"
 
@@ -65,7 +65,6 @@ path = "src/lupaxa/tcp_port_ping/version.py"
 include = [
   "src/**",
   "README.md",
-  "README-PYPI.md",
   "LICENCE",
 ]
 

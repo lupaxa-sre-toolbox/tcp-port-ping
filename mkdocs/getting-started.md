@@ -1,4 +1,4 @@
-# Getting started
+# Getting Started
 
 ## Requirements
 
@@ -31,7 +31,7 @@ Module entry point:
 python -m lupaxa.tcp_port_ping --version
 ```
 
-### From source (development)
+### From Source (Development)
 
 ```bash
 make init
@@ -39,7 +39,7 @@ make python-install-dev
 tcp-port-ping --version
 ```
 
-## First run
+## First Run
 
 Pass the host and port:
 
@@ -55,7 +55,7 @@ the totals. A finished `--count` run exits `0` when every probe
 succeeded and `1` when any failed. Ctrl-C prints the summary
 immediately and exits `0`.
 
-## Makefile helpers
+## Makefile Helpers
 
 ```bash
 make init                 # clone makefile-skills into .makefiles/
